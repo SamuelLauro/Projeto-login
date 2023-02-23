@@ -37,18 +37,34 @@ label{
     margin-bottom: 5px;
     color: #e8e8e8;
 }
+
+input[type='text'], input[type='password']{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #555;
+    color: #f1f1f1;
+}
+
+input[type='text']::placeholder, input[type='password']::placeholder{
+    color: #a6a6a6;
+}
+
 div.textlogin,div.password{
     display: flex;
     flex-direction: column;
-    margin-bottom: 28px;
+    margin-bottom: 10px;
 }
+
 
 div.textlogin{
     margin-bottom: 10px;
 }
 
 div.conected{
-    margin-bottom: 10px;
+    font-size: 14px;
+    margin-bottom: 1px;
 }
 
 div.esquecisenha, a{
@@ -89,6 +105,7 @@ input[type='submit']{
     transition: 0.3s ease;
     margin-top: 10px;
     width: 100%;
+    box-sizing: border-box;
     
 }
 input[type='submit']:hover{
