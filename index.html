@@ -5,18 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="container">
         <h2>Login</h2>
         <form action="#">
             <div class="textlogin">
-                <label for="iusu"></label>
-                <input type="text" name="usu" id="iusu" placeholder="Usuário">
+                <label for="iusu">Email</label>
+                <input type="text" name="usu" id="iusu" required>
             </div>
+
+            <div class="password">
+                <label for="isen">Senha</label>
+                <input type="password" name="sen" id="isen" required> 
+            </div>
+
+            <div class="conected">
+                <input type="checkbox" name="lembrar" id="ilembrar"> <label for="ilembrar">Matenha-me Conectado</label>
+            </div>
+
+            <div class="esquecisenha">
+                <a href="#">Esqueci minha senha</a>
+                
+            </div>
+
+            <div class="criarconta">
+                <p>Não tem conta ? <a href="#">Crie Agora</a>
+                </p></div>
+
             <div>
-                <label for="isen"></label>
-                <input type="password" name="sen" id="isen" placeholder="Senha">
+                <input type="submit" value="Entrar">
             </div>
         </form>
     </div>
