@@ -1,2 +1,2 @@
 # Projeto-login
- Criando uma tela de Login utilizando HTML e CSS
+ Criando uma tela de Login utilizando HTML, CSS e JavaScript
