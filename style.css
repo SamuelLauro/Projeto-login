@@ -63,6 +63,12 @@ div.textlogin{
     margin-bottom: 10px;
 }
 
+div#erro-msg{
+    color: red;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
 div.conected{
     font-size: 14px;
     margin-bottom: 1px;
